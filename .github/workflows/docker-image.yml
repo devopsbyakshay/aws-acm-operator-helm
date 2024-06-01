@@ -20,7 +20,7 @@ jobs:
         version: v3.6.3
 
     - name: Package Helm chart
-      run: helm package aws-acm-operator --destination .
+      run: helm package ./ --destination .
 
     - name: Upload packaged chart to gh-pages branch
       uses: peaceiris/actions-gh-pages@v3

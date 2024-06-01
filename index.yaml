@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   aws-acm-operator:
   - apiVersion: v2
-    appVersion: 1.16.0
+    appVersion: 0.0.1
     created: "2024-06-01T05:42:44.345703343Z"
     description: A Helm chart for Kubernetes
     digest: 75af58781511fe1009918fd5996caaff00be145dc2dfa51a0fae2a4d085896bf

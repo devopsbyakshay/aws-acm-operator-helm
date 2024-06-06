@@ -4,7 +4,6 @@
 
 replicaCount: 1
 
-
 image:
   repository: akki2208/aws-acm-operator
   pullPolicy: IfNotPresent
@@ -14,7 +13,6 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-
 
 env:
   # Below aws creds should only be enabled when you are not using iam roles using service account(IRSA)
